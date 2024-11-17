@@ -4,4 +4,4 @@ import platform,os
 os.system("git pull")
 bit = platform.architecture()[0]
 if bit == '32bit':
-    import new1_enc
+    import crt
